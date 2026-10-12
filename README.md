@@ -24,14 +24,20 @@ Exam page title: centered, size 16.
 
 Multiple-choice questions:
 1. Question stem
+
 A. Option
+
 B. Option
+
 C. Option
+
 ...
+
 答案(Answer, Chinese only): A
 
 Subjective questions:
 1. Question stem
+
 答案(Answer, Chinese only): explanation content
 
 In short, the exported DOC file does not include personal responses. It only exports questions together with the teacher-provided answers or explanations. On the live exam page, only question information is exported.
