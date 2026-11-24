@@ -91,8 +91,10 @@ In short, the exported file does not include personal responses. It only exports
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 ## Known Issues
 - (Likely won't be improved) Retrieving exam paper information on iOS is slower than on PC, and other mobile browsers may also experience this.
+- It is known that the control panel may repeatedly appear inside input fields when the exam interface contains input boxes. This will not be fixed for now, as it has minimal impact on usage.
 
 ## Disclaimer
 
