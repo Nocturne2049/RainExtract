@@ -13,7 +13,7 @@ All v6.x features (batch export, mobile support, Material Design 3 UI) designed 
 
 # RainExtract
 
-A Tampermonkey userscript for the Rain Classroom examination platform. This script was mainly built for personal use. I tested it with ScriptCat on Microsoft Edge for macOS and on mobile Chromium-based browsers; in theory it should run on any compatible system and browser.
+A Tampermonkey userscript for the RainC examination platform. This script was mainly built for personal use. I tested it with ScriptCat on Microsoft Edge for macOS and on mobile Chromium-based browsers; in theory it should run on any compatible system and browser.
 
 Some existing plugins can export exam content, but their output tends to be overly verbose, or they produce image-heavy DOC files and remote-URL links that break offline. RainExtract is a lightweight, zero-dependency tool that meets my own needs: viewing all answer explanations at once, saving all questions on the current page as a **real binary `.docx` file**, and batch-exporting every finished exam in a course in one click.
 
