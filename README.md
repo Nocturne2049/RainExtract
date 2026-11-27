@@ -31,6 +31,17 @@ This script is completely free and must not be resold.
 - Draggable floating panel with auto edge-snapping and collapse-to-ball animation
 - Automatically switches state between the exam page and the results page. On the live exam page, only questions are exported; explanation expansion is not available.
 
+> **Important Note**
+> 
+> When using on iOS devices, real-world testing may reveal the following issues:
+> - Saving test papers with images is extremely slow.
+> - Retrieving test paper information in the batch extraction interface is extremely slow.
+> - Batch saving may fail due to the slow speed of saving test papers with images.
+> 
+> These issues are currently unresolved. For a better experience, we recommend using other types of devices for batch saving or saving test papers with images.
+> 
+> Although we have added saving progress indicators to optimize the experience when saving test papers with images on the exam page or exam results screen on iOS devices, batch saving will still likely fail. If you must use an iOS device for batch saving, we recommend unchecking "save test papers with images" on the batch save page and saving them individually on the exam results page.
+
 ## The exported DOCX
 
 Built locally by a self-written ZIP/CRC32 + OOXML engine — **no CDN, no npm, no JSZip, no network at build time**.
@@ -91,10 +102,6 @@ In short, the exported file does not include personal responses. It only exports
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Known Issues
-- (Likely won't be improved) Retrieving exam paper information on iOS is slower than on PC, and other mobile browsers may also experience this.
-- It is known that the control panel may repeatedly appear inside input fields when the exam interface contains input boxes. This will not be fixed for now, as it has minimal impact on usage.
 
 ## Disclaimer
 
